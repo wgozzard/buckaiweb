@@ -1,0 +1,75 @@
+body {
+    padding-top: 80px;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .hero {
+    background-color: #f8f9fa;
+  }
+  
+  .btn-primary {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .btn-primary:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+  }
+  
+  #about {
+    background-color: #f8f9fa;
+  }
+  
+  #aboutCarousel {
+    margin-bottom: 30px;
+  }
+  
+  .carousel-item {
+    min-height: 300px;
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(100%);
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  /* New class for demo pages */
+  body.demo {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .demo .content-wrapper {
+    flex: 1;
+  }
+  
+  .demo .blank-space {
+    flex: 1;
+  }
+  
+  .demo footer {
+    margin-top: auto;
+  }
+
+  #chat_form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; /* Adjust the width as needed */
+}
+  

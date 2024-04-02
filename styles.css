@@ -1,72 +1,90 @@
 body {
     padding-top: 80px;
-  }
-  
-  .navbar-brand {
+}
+
+.navbar-brand {
     font-weight: bold;
-  }
-  
-  .hero {
+}
+
+.hero {
     background-color: #f8f9fa;
-  }
-  
-  .btn-primary {
+}
+
+.btn-primary {
     background-color: #dc3545;
     border-color: #dc3545;
-  }
-  
-  .btn-primary:hover {
+}
+
+.btn-primary:hover {
     background-color: #c82333;
     border-color: #bd2130;
-  }
-  
-  #about {
+}
+
+#about {
     background-color: #f8f9fa;
-  }
-  
-  #aboutCarousel {
+}
+
+#aboutCarousel {
     margin-bottom: 30px;
-  }
-  
-  .carousel-item {
+}
+
+.carousel-item {
     min-height: 300px;
-  }
-  
-  .carousel-item img {
+}
+
+.carousel-item img {
     object-fit: cover;
     height: 100%;
-  }
-  
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
     filter: invert(100%);
-  }
-  
-  footer {
+}
+
+#services {
+    background-color: #f8f9fa;
+}
+
+#services .card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+#services .card:hover {
+    transform: translateY(-5px);
+}
+
+#services .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
     background-color: #343a40;
     color: #fff;
-  }
-  
-  /* New class for demo pages */
-  body.demo {
+}
+
+/* New class for demo pages */
+body.demo {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-  }
-  
-  .demo .content-wrapper {
-    flex: 1;
-  }
-  
-  .demo .blank-space {
-    flex: 1;
-  }
-  
-  .demo footer {
-    margin-top: auto;
-  }
+}
 
-  #chat_form {
+.demo .content-wrapper {
+    flex: 1;
+}
+
+.demo .blank-space {
+    flex: 1;
+}
+
+.demo footer {
+    margin-top: auto;
+}
+
+#chat_form {
     display: block;
     margin-left: auto;
     margin-right: auto;

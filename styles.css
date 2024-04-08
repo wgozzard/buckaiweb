@@ -90,4 +90,11 @@ body.demo {
     margin-right: auto;
     width: 50%; /* Adjust the width as needed */
 }
+
+.buttons-container {
+    display: flex;
+    justify-content: center; /* This centers the buttons horizontally */
+    gap: 10px; /* This adds some space between the buttons */
+}
+
   
